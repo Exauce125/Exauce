@@ -1,0 +1,96 @@
+.container{
+            background-color:rgb(216, 193, 191);
+            border: solid blue 1px;
+            display: grid;
+            grid-template-areas: 'header header header header'
+                                'nav section1 section1 section1 '
+                                'vide section2 section2 section2'
+                                'footer footer footer footer';
+            grid-template-rows:15vh 60vh 50vh 15vh ;
+            grid-template-columns: 3fr 4fr 3fr 3fr;
+            gap: 10px;
+
+}
+.header{
+            background-color: crimson;
+         border: solid rgb(77, 17, 243) 1px;
+         grid-area:header;
+}
+.nav{
+      background-repeat: no-repeat;
+      background-image: url('MK4.jpg');
+      background-size: contain;
+      background-color: rgb(35, 168, 221);
+      border: solid rgb(31, 27, 27) 2px;
+      grid-area:nav;
+}
+.section1{
+            background-color: cyan;
+           border: solid black 2px;
+           grid-area:section1;
+           display: grid;
+                                        
+}
+.div1{      
+            background-color: rgb(199, 78, 78);
+            margin: 10px;
+            border: solid rgb(8, 245, 47) 1px;
+           display: grid;
+           grid-template-areas: 'aside1 aside1 aside2 '
+                               'aside1 aside1 aside3 ';
+            grid-template-rows:25vh 25vh ;
+            gap: 8px;
+
+}
+.article{
+      
+      background-color: cornflowerblue;
+      border: solid rgb(250, 10, 62) 1px;
+      grid-area:aside1 ;
+}
+.aside2{
+      background-color: cornflowerblue;
+      border: solid rgb(10, 60, 228) 2px;
+      grid-area:aside2;
+}
+.aside3{
+      background-color: cornflowerblue;
+      border: solid rgb(245, 153, 14) 2px;
+      grid-area:aside3;
+}
+.section2{
+           background-color: wheat;
+           border: solid rgb(17, 190, 89) 2px;
+           grid-area:section2;
+          
+}
+.div2{
+            
+      margin: 55px;
+      display: grid;
+      grid-template-areas: 'aside4 aside4  aside5'
+                           'aside4 aside4  aside5' ;   
+      grid-template-rows:18vh 18vh ;   
+      gap: 10px;                  
+      
+}
+.aside4{
+      
+        display: none;
+        border: solid 2px violet;
+         grid-area:aside4;
+}                 
+
+.aside5{ 
+      background-color:violet;
+      border: rgb(121, 25, 185) solid 2px;
+       grid-area:aside5;
+}
+
+.footer{
+      background-color:brown;
+         border: solid rgb(150, 209, 11) 2px;
+         grid-area:footer;
+}
+
+
